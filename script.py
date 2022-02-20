@@ -10,6 +10,6 @@ from tensorflow.keras.utils import to_categorical
 import numpy as np
 
 
- 
-
+data = pd.read_csv('heart_failure.csv')
+print(data.info())
 
